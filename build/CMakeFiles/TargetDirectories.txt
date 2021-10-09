@@ -1,0 +1,3 @@
+/home/yhc/文档/opengl-learning/build/CMakeFiles/rebuild_cache.dir
+/home/yhc/文档/opengl-learning/build/CMakeFiles/edit_cache.dir
+/home/yhc/文档/opengl-learning/build/CMakeFiles/OpenGl_homework.dir

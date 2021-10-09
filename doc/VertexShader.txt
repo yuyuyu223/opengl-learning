@@ -1,0 +1,17 @@
+#version 330 core
+layout (location = 0) in vec3 aPos;
+
+void main()
+{
+    gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);
+}
+
+
+GLSL有一个向量数据类型，它包含1到4个float分量，包含的数量可以从它的后缀数字看出来。
+由于每个顶点都有一个3D坐标，我们就创建一个vec3输入变量aPos。
+我们同样也通过layout (location = 0)设定了输入变量的位置值
+
+我们必须把位置数据赋值给预定义的gl_Position变量，它在幕后是vec4类型的。
+在main函数的最后，我们将gl_Position设置的值会成为该顶点着色器的输出。
+由于我们的输入是一个3分量的向量，我们必须把它转换为4分量的。
+我们可以把vec3的数据作为vec4构造器的参数，同时把w分量设置为1.0f（我们会在后面解释为什么）来完成这一任务。

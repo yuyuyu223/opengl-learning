@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/yhc/文档/opengl-learning/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/yhc/文档/opengl-learning/./include -I/home/yhc/文档/opengl-learning/./include/ImGUI/examples/libs/gl3w -I/home/yhc/文档/opengl-learning/./include/ImGUI/backends -I/home/yhc/文档/opengl-learning/./include/ImGUI  -g   -std=gnu++11 -o CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.o -c /home/yhc/文档/opengl-learning/review/Advanced_lighting/Deferred_Shading/main.cpp",
+  "file": "/home/yhc/文档/opengl-learning/review/Advanced_lighting/Deferred_Shading/main.cpp"
+},
+{
+  "directory": "/home/yhc/文档/opengl-learning/build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/yhc/文档/opengl-learning/./include -I/home/yhc/文档/opengl-learning/./include/ImGUI/examples/libs/gl3w -I/home/yhc/文档/opengl-learning/./include/ImGUI/backends -I/home/yhc/文档/opengl-learning/./include/ImGUI  -g   -std=gnu11 -o CMakeFiles/OpenGl_homework.dir/glad.c.o   -c /home/yhc/文档/opengl-learning/glad.c",
+  "file": "/home/yhc/文档/opengl-learning/glad.c"
+},
+{
+  "directory": "/home/yhc/文档/opengl-learning/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/yhc/文档/opengl-learning/./include -I/home/yhc/文档/opengl-learning/./include/ImGUI/examples/libs/gl3w -I/home/yhc/文档/opengl-learning/./include/ImGUI/backends -I/home/yhc/文档/opengl-learning/./include/ImGUI  -g   -std=gnu++11 -o CMakeFiles/OpenGl_homework.dir/include/ImGUI/backends/imgui_impl_glfw.cpp.o -c /home/yhc/文档/opengl-learning/include/ImGUI/backends/imgui_impl_glfw.cpp",
+  "file": "/home/yhc/文档/opengl-learning/include/ImGUI/backends/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "/home/yhc/文档/opengl-learning/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/yhc/文档/opengl-learning/./include -I/home/yhc/文档/opengl-learning/./include/ImGUI/examples/libs/gl3w -I/home/yhc/文档/opengl-learning/./include/ImGUI/backends -I/home/yhc/文档/opengl-learning/./include/ImGUI  -g   -std=gnu++11 -o CMakeFiles/OpenGl_homework.dir/include/ImGUI/backends/imgui_impl_opengl3.cpp.o -c /home/yhc/文档/opengl-learning/include/ImGUI/backends/imgui_impl_opengl3.cpp",
+  "file": "/home/yhc/文档/opengl-learning/include/ImGUI/backends/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/home/yhc/文档/opengl-learning/build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/yhc/文档/opengl-learning/./include -I/home/yhc/文档/opengl-learning/./include/ImGUI/examples/libs/gl3w -I/home/yhc/文档/opengl-learning/./include/ImGUI/backends -I/home/yhc/文档/opengl-learning/./include/ImGUI  -g   -std=gnu11 -o CMakeFiles/OpenGl_homework.dir/include/ImGUI/examples/libs/gl3w/GL/gl3w.c.o   -c /home/yhc/文档/opengl-learning/include/ImGUI/examples/libs/gl3w/GL/gl3w.c",
+  "file": "/home/yhc/文档/opengl-learning/include/ImGUI/examples/libs/gl3w/GL/gl3w.c"
+},
+{
+  "directory": "/home/yhc/文档/opengl-learning/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/yhc/文档/opengl-learning/./include -I/home/yhc/文档/opengl-learning/./include/ImGUI/examples/libs/gl3w -I/home/yhc/文档/opengl-learning/./include/ImGUI/backends -I/home/yhc/文档/opengl-learning/./include/ImGUI  -g   -std=gnu++11 -o CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui.cpp.o -c /home/yhc/文档/opengl-learning/include/ImGUI/imgui.cpp",
+  "file": "/home/yhc/文档/opengl-learning/include/ImGUI/imgui.cpp"
+},
+{
+  "directory": "/home/yhc/文档/opengl-learning/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/yhc/文档/opengl-learning/./include -I/home/yhc/文档/opengl-learning/./include/ImGUI/examples/libs/gl3w -I/home/yhc/文档/opengl-learning/./include/ImGUI/backends -I/home/yhc/文档/opengl-learning/./include/ImGUI  -g   -std=gnu++11 -o CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui_demo.cpp.o -c /home/yhc/文档/opengl-learning/include/ImGUI/imgui_demo.cpp",
+  "file": "/home/yhc/文档/opengl-learning/include/ImGUI/imgui_demo.cpp"
+},
+{
+  "directory": "/home/yhc/文档/opengl-learning/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/yhc/文档/opengl-learning/./include -I/home/yhc/文档/opengl-learning/./include/ImGUI/examples/libs/gl3w -I/home/yhc/文档/opengl-learning/./include/ImGUI/backends -I/home/yhc/文档/opengl-learning/./include/ImGUI  -g   -std=gnu++11 -o CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui_draw.cpp.o -c /home/yhc/文档/opengl-learning/include/ImGUI/imgui_draw.cpp",
+  "file": "/home/yhc/文档/opengl-learning/include/ImGUI/imgui_draw.cpp"
+},
+{
+  "directory": "/home/yhc/文档/opengl-learning/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/yhc/文档/opengl-learning/./include -I/home/yhc/文档/opengl-learning/./include/ImGUI/examples/libs/gl3w -I/home/yhc/文档/opengl-learning/./include/ImGUI/backends -I/home/yhc/文档/opengl-learning/./include/ImGUI  -g   -std=gnu++11 -o CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui_tables.cpp.o -c /home/yhc/文档/opengl-learning/include/ImGUI/imgui_tables.cpp",
+  "file": "/home/yhc/文档/opengl-learning/include/ImGUI/imgui_tables.cpp"
+},
+{
+  "directory": "/home/yhc/文档/opengl-learning/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/yhc/文档/opengl-learning/./include -I/home/yhc/文档/opengl-learning/./include/ImGUI/examples/libs/gl3w -I/home/yhc/文档/opengl-learning/./include/ImGUI/backends -I/home/yhc/文档/opengl-learning/./include/ImGUI  -g   -std=gnu++11 -o CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui_widgets.cpp.o -c /home/yhc/文档/opengl-learning/include/ImGUI/imgui_widgets.cpp",
+  "file": "/home/yhc/文档/opengl-learning/include/ImGUI/imgui_widgets.cpp"
+}
+]
