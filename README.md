@@ -1,4 +1,4 @@
-# OpenGL光栅渲染器
+# OpenGL学习
 
 ## 介绍
 仿真入门作业，learnopengl官网教程按章节写的项目

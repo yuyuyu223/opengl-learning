@@ -11,6 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
+  "/usr/local/lib/cmake/assimp-3.1/assimp-config-version.cmake"
+  "/usr/local/lib/cmake/assimp-3.1/assimp-config.cmake"
   "/usr/local/lib/cmake/glfw3/glfw3Config.cmake"
   "/usr/local/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
   "/usr/local/lib/cmake/glfw3/glfw3Targets-debug.cmake"

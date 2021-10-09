@@ -366,32 +366,32 @@ include/ImGUI/imgui_widgets.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGl_homework.dir/build.make CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui_widgets.cpp.s
 .PHONY : include/ImGUI/imgui_widgets.cpp.s
 
-review/light/basic_light/main.o: review/light/basic_light/main.cpp.o
+review/Advanced/Instancing/main.o: review/Advanced/Instancing/main.cpp.o
 
-.PHONY : review/light/basic_light/main.o
+.PHONY : review/Advanced/Instancing/main.o
 
 # target to build an object file
-review/light/basic_light/main.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGl_homework.dir/build.make CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.o
-.PHONY : review/light/basic_light/main.cpp.o
+review/Advanced/Instancing/main.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGl_homework.dir/build.make CMakeFiles/OpenGl_homework.dir/review/Advanced/Instancing/main.cpp.o
+.PHONY : review/Advanced/Instancing/main.cpp.o
 
-review/light/basic_light/main.i: review/light/basic_light/main.cpp.i
+review/Advanced/Instancing/main.i: review/Advanced/Instancing/main.cpp.i
 
-.PHONY : review/light/basic_light/main.i
+.PHONY : review/Advanced/Instancing/main.i
 
 # target to preprocess a source file
-review/light/basic_light/main.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGl_homework.dir/build.make CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.i
-.PHONY : review/light/basic_light/main.cpp.i
+review/Advanced/Instancing/main.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGl_homework.dir/build.make CMakeFiles/OpenGl_homework.dir/review/Advanced/Instancing/main.cpp.i
+.PHONY : review/Advanced/Instancing/main.cpp.i
 
-review/light/basic_light/main.s: review/light/basic_light/main.cpp.s
+review/Advanced/Instancing/main.s: review/Advanced/Instancing/main.cpp.s
 
-.PHONY : review/light/basic_light/main.s
+.PHONY : review/Advanced/Instancing/main.s
 
 # target to generate assembly for a file
-review/light/basic_light/main.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGl_homework.dir/build.make CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.s
-.PHONY : review/light/basic_light/main.cpp.s
+review/Advanced/Instancing/main.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGl_homework.dir/build.make CMakeFiles/OpenGl_homework.dir/review/Advanced/Instancing/main.cpp.s
+.PHONY : review/Advanced/Instancing/main.cpp.s
 
 # Help Target
 help:
@@ -429,9 +429,9 @@ help:
 	@echo "... include/ImGUI/imgui_widgets.o"
 	@echo "... include/ImGUI/imgui_widgets.i"
 	@echo "... include/ImGUI/imgui_widgets.s"
-	@echo "... review/light/basic_light/main.o"
-	@echo "... review/light/basic_light/main.i"
-	@echo "... review/light/basic_light/main.s"
+	@echo "... review/Advanced/Instancing/main.o"
+	@echo "... review/Advanced/Instancing/main.i"
+	@echo "... review/Advanced/Instancing/main.s"
 .PHONY : help
 
 

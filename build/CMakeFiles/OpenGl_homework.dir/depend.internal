@@ -57,7 +57,7 @@ CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui_widgets.cpp.o
  /home/yhc/文档/opengl-learning/include/ImGUI/imgui_internal.h
  /home/yhc/文档/opengl-learning/include/ImGUI/imgui_widgets.cpp
  /home/yhc/文档/opengl-learning/include/ImGUI/imstb_textedit.h
-CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.o
+CMakeFiles/OpenGl_homework.dir/review/Advanced/Instancing/main.cpp.o
  ../include/Camera.h
  ../include/EventListener.h
  ../include/GLFW/glfw3.h
@@ -168,4 +168,4 @@ CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.o
  ../include/glm/vec4.hpp
  ../include/glm/vector_relational.hpp
  ../include/stb_image.h
- /home/yhc/文档/opengl-learning/review/light/basic_light/main.cpp
+ /home/yhc/文档/opengl-learning/review/Advanced/Instancing/main.cpp

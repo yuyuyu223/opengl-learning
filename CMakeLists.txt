@@ -28,7 +28,8 @@ IF(PLATFORM MATCHES "Linux")
     find_package(glfw3 REQUIRED)
     find_package(GLUT REQUIRED)
     find_package(X11 REQUIRED)
-    file(GLOB project_main_file ./review/light/basic_light/main.cpp glad.c)
+    find_package(assimp REQUIRED)
+    file(GLOB project_main_file ./review/Advanced/Instancing/main.cpp glad.c)
     # set common source
     file(GLOB GUI_SRC
         ./include/ImGUI/*.h
@@ -37,6 +38,7 @@ IF(PLATFORM MATCHES "Linux")
         ./include/ImGUI/backends/imgui_impl_glfw.*
         ./include/ImGUI/backends/imgui_impl_opengl3.*
     )
+    link_directories(./lib)
     add_executable(${PROJECT_NAME} ${project_main_file} ${GUI_SRC})
     # 添加头文件路径
     include_directories(
@@ -58,7 +60,7 @@ IF(PLATFORM MATCHES "Linux")
         -ldl
         -lXinerama
         -lXcursor
-        -lassimp
+        -lassimpd
         )
 ELSEIF(PLATFORM MATCHES "Windows")
     MESSAGE(STATUS "进行windows配置")

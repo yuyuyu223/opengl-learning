@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/yhc/文档/opengl-learning/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/yhc/文档/opengl-learning/./include -I/home/yhc/文档/opengl-learning/./include/ImGUI/examples/libs/gl3w -I/home/yhc/文档/opengl-learning/./include/ImGUI/backends -I/home/yhc/文档/opengl-learning/./include/ImGUI  -g   -std=gnu++11 -o CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.o -c /home/yhc/文档/opengl-learning/review/light/basic_light/main.cpp",
-  "file": "/home/yhc/文档/opengl-learning/review/light/basic_light/main.cpp"
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/yhc/文档/opengl-learning/./include -I/home/yhc/文档/opengl-learning/./include/ImGUI/examples/libs/gl3w -I/home/yhc/文档/opengl-learning/./include/ImGUI/backends -I/home/yhc/文档/opengl-learning/./include/ImGUI  -g   -std=gnu++11 -o CMakeFiles/OpenGl_homework.dir/review/Advanced/Instancing/main.cpp.o -c /home/yhc/文档/opengl-learning/review/Advanced/Instancing/main.cpp",
+  "file": "/home/yhc/文档/opengl-learning/review/Advanced/Instancing/main.cpp"
 },
 {
   "directory": "/home/yhc/文档/opengl-learning/build",

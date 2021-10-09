@@ -169,8 +169,8 @@ int main()
     glEnableVertexAttribArray(2);
 
     // 定义并加载纹理
-    Texture *texture1 = new Texture("./texture/box.jpg", GL_TEXTURE0);
-    Texture *texture2 = new Texture("./texture/box_specular.jpg", GL_TEXTURE1);
+    Texture *texture1 = new Texture("../texture/box.jpg", GL_TEXTURE0);
+    Texture *texture2 = new Texture("../texture/box_specular.jpg", GL_TEXTURE1);
 
     // 渲染循环
     // -----------

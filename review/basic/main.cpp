@@ -75,7 +75,7 @@ int main()
 
     /* 着色器配置 */
     ///////////////////////////////////////////////////////////////////////////////////
-    Shader *shader = new Shader("./shaders/vertex.dat", "./shaders/fragment.dat");
+    Shader *shader = new Shader("../review/basic/vertex.dat", "../review/basic/fragment.dat");
 
     ///////////////////////////////////////////////////////////////////////////////////
 
@@ -173,8 +173,8 @@ int main()
 
     /* 纹理部分 */
     ///////////////////////////////////////////////////////////////////////////////////
-    Texture *texture1 = new Texture("./texture/1.jpg", GL_TEXTURE0);
-    Texture *texture2 = new Texture("./texture/2.jpg", GL_TEXTURE1);
+    Texture *texture1 = new Texture("../texture/1.jpg", GL_TEXTURE0);
+    Texture *texture2 = new Texture("../texture/2.jpg", GL_TEXTURE1);
 
     ///////////////////////////////////////////////////////////////////////////////////
 

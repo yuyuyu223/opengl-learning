@@ -85,7 +85,7 @@ int main()
 
     /* 着色器配置 */
     ///////////////////////////////////////////////////////////////////////////////////
-    Shader *shader = new Shader("../review/blend/3.1.blending.vs", "../review/blend/3.1.blending.fs");
+    Shader *shader = new Shader("../review/Advanced/Face_culling/3.1.blending.vs", "../review/Advanced/Face_culling/3.1.blending.fs");
 
     ///////////////////////////////////////////////////////////////////////////////////
 

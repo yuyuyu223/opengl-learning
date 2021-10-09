@@ -80,8 +80,8 @@ int main()
 
     /* 着色器配置 */
     ///////////////////////////////////////////////////////////////////////////////////
-    Shader *skyboxShader = new Shader("../review/Cubemaps/6.1.skybox.vs", "../review/Cubemaps/6.1.skybox.fs");
-    Shader *cubeShader = new Shader("../review/Cubemaps/6.2.cubemaps.vs", "../review/Cubemaps/6.2.cubemaps.fs");
+    Shader *skyboxShader = new Shader("../review/Advanced/Cubemaps/6.1.skybox.vs", "../review/Advanced/Cubemaps/6.1.skybox.fs");
+    Shader *cubeShader = new Shader("../review/Advanced/Cubemaps/6.2.cubemaps.vs", "../review/Advanced/Cubemaps/6.2.cubemaps.fs");
 
     ///////////////////////////////////////////////////////////////////////////////////
 

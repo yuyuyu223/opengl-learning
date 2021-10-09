@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//the suffix for the openrave libraries
+ASSIMP_LIBRARY_SUFFIX:STRING=
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/bin/addr2line
 
@@ -433,6 +436,9 @@ X11_xkbfile_INCLUDE_PATH:PATH=X11_xkbfile_INCLUDE_PATH-NOTFOUND
 //Path to a library.
 X11_xkbfile_LIB:FILEPATH=X11_xkbfile_LIB-NOTFOUND
 
+//The directory containing a CMake configuration file for assimp.
+assimp_DIR:PATH=/usr/local/lib/cmake/assimp-3.1
+
 //The directory containing a CMake configuration file for glfw3.
 glfw3_DIR:PATH=/usr/local/lib/cmake/glfw3
 
@@ -441,6 +447,8 @@ glfw3_DIR:PATH=/usr/local/lib/cmake/glfw3
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: ASSIMP_LIBRARY_SUFFIX
+ASSIMP_LIBRARY_SUFFIX-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR

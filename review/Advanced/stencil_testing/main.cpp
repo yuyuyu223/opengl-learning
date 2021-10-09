@@ -87,8 +87,8 @@ int main()
 
     /* 着色器配置 */
     ///////////////////////////////////////////////////////////////////////////////////
-    Shader *shader = new Shader("../review/stencil_testing/2.stencil_testing.vs", "../review/stencil_testing/2.stencil_testing.fs");
-    Shader *shaderSingleColor = new Shader("../review/stencil_testing/2.stencil_testing.vs", "../review/stencil_testing/2.stencil_single_color.fs");
+    Shader *shader = new Shader("../review/Advanced/stencil_testing/2.stencil_testing.vs", "../review/Advanced/stencil_testing/2.stencil_testing.fs");
+    Shader *shaderSingleColor = new Shader("../review/Advanced/stencil_testing/2.stencil_testing.vs", "../review/Advanced/stencil_testing/2.stencil_single_color.fs");
 
     ///////////////////////////////////////////////////////////////////////////////////
 

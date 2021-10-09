@@ -25,7 +25,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/yhc/文档/opengl-learning/include/ImGUI/imgui_draw.cpp" "/home/yhc/文档/opengl-learning/build/CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui_draw.cpp.o"
   "/home/yhc/文档/opengl-learning/include/ImGUI/imgui_tables.cpp" "/home/yhc/文档/opengl-learning/build/CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui_tables.cpp.o"
   "/home/yhc/文档/opengl-learning/include/ImGUI/imgui_widgets.cpp" "/home/yhc/文档/opengl-learning/build/CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui_widgets.cpp.o"
-  "/home/yhc/文档/opengl-learning/review/light/basic_light/main.cpp" "/home/yhc/文档/opengl-learning/build/CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.o"
+  "/home/yhc/文档/opengl-learning/review/Advanced/Instancing/main.cpp" "/home/yhc/文档/opengl-learning/build/CMakeFiles/OpenGl_homework.dir/review/Advanced/Instancing/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

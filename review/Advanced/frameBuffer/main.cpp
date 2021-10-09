@@ -82,8 +82,8 @@ int main()
 
     /* 着色器配置 */
     ///////////////////////////////////////////////////////////////////////////////////
-    Shader *shader = new Shader("../review/frameBuffer/5.1.framebuffers.vs", "../review/frameBuffer/5.1.framebuffers.fs");
-    Shader *screenShader = new Shader("../review/frameBuffer/5.1.framebuffers_screen.vs", "../review/frameBuffer/5.1.framebuffers_screen.fs");
+    Shader *shader = new Shader("../review/Advanced/frameBuffer/5.1.framebuffers.vs", "../review/Advanced/frameBuffer/5.1.framebuffers.fs");
+    Shader *screenShader = new Shader("../review/Advanced/frameBuffer/5.1.framebuffers_screen.vs", "../review/Advanced/frameBuffer/5.1.framebuffers_screen.fs");
     ///////////////////////////////////////////////////////////////////////////////////
 
     /* 顶点和缓冲配置 */
@@ -202,8 +202,8 @@ int main()
 
     /* 纹理部分 */
     ///////////////////////////////////////////////////////////////////////////////////
-    Texture *cubeTexture = new Texture("./texture/box.jpg", GL_TEXTURE0);
-    Texture *floorTexture = new Texture("./texture/metal.png", GL_TEXTURE0);
+    Texture *cubeTexture = new Texture("../texture/box.jpg", GL_TEXTURE0);
+    Texture *floorTexture = new Texture("../texture/metal.png", GL_TEXTURE0);
 
     ///////////////////////////////////////////////////////////////////////////////////
 

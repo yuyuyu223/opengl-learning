@@ -80,7 +80,7 @@ int main()
 
     /* 着色器配置 */
     ///////////////////////////////////////////////////////////////////////////////////
-    Shader *shader = new Shader("../review/Depth/1.1.depth_testing.vs", "../review/Depth/1.1.depth_testing.fs");
+    Shader *shader = new Shader("../review/Advanced/Depth_Testing/1.1.depth_testing.vs", "../review/Advanced/Depth_Testing/1.1.depth_testing.fs");
 
     ///////////////////////////////////////////////////////////////////////////////////
 
@@ -172,8 +172,8 @@ int main()
 
     /* 纹理部分 */
     ///////////////////////////////////////////////////////////////////////////////////
-    Texture *texture1 = new Texture("./texture/marble.jpg", GL_TEXTURE0);
-    Texture *texture2 = new Texture("./texture/metal.png", GL_TEXTURE1);
+    Texture *texture1 = new Texture("../texture/marble.jpg", GL_TEXTURE0);
+    Texture *texture2 = new Texture("../texture/metal.png", GL_TEXTURE1);
 
     ///////////////////////////////////////////////////////////////////////////////////
 
