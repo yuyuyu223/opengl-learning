@@ -366,32 +366,32 @@ include/ImGUI/imgui_widgets.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGl_homework.dir/build.make CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui_widgets.cpp.s
 .PHONY : include/ImGUI/imgui_widgets.cpp.s
 
-review/Advanced_lighting/Deferred_Shading/main.o: review/Advanced_lighting/Deferred_Shading/main.cpp.o
+review/light/basic_light/main.o: review/light/basic_light/main.cpp.o
 
-.PHONY : review/Advanced_lighting/Deferred_Shading/main.o
+.PHONY : review/light/basic_light/main.o
 
 # target to build an object file
-review/Advanced_lighting/Deferred_Shading/main.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGl_homework.dir/build.make CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.o
-.PHONY : review/Advanced_lighting/Deferred_Shading/main.cpp.o
+review/light/basic_light/main.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGl_homework.dir/build.make CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.o
+.PHONY : review/light/basic_light/main.cpp.o
 
-review/Advanced_lighting/Deferred_Shading/main.i: review/Advanced_lighting/Deferred_Shading/main.cpp.i
+review/light/basic_light/main.i: review/light/basic_light/main.cpp.i
 
-.PHONY : review/Advanced_lighting/Deferred_Shading/main.i
+.PHONY : review/light/basic_light/main.i
 
 # target to preprocess a source file
-review/Advanced_lighting/Deferred_Shading/main.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGl_homework.dir/build.make CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.i
-.PHONY : review/Advanced_lighting/Deferred_Shading/main.cpp.i
+review/light/basic_light/main.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGl_homework.dir/build.make CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.i
+.PHONY : review/light/basic_light/main.cpp.i
 
-review/Advanced_lighting/Deferred_Shading/main.s: review/Advanced_lighting/Deferred_Shading/main.cpp.s
+review/light/basic_light/main.s: review/light/basic_light/main.cpp.s
 
-.PHONY : review/Advanced_lighting/Deferred_Shading/main.s
+.PHONY : review/light/basic_light/main.s
 
 # target to generate assembly for a file
-review/Advanced_lighting/Deferred_Shading/main.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGl_homework.dir/build.make CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.s
-.PHONY : review/Advanced_lighting/Deferred_Shading/main.cpp.s
+review/light/basic_light/main.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGl_homework.dir/build.make CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.s
+.PHONY : review/light/basic_light/main.cpp.s
 
 # Help Target
 help:
@@ -429,9 +429,9 @@ help:
 	@echo "... include/ImGUI/imgui_widgets.o"
 	@echo "... include/ImGUI/imgui_widgets.i"
 	@echo "... include/ImGUI/imgui_widgets.s"
-	@echo "... review/Advanced_lighting/Deferred_Shading/main.o"
-	@echo "... review/Advanced_lighting/Deferred_Shading/main.i"
-	@echo "... review/Advanced_lighting/Deferred_Shading/main.s"
+	@echo "... review/light/basic_light/main.o"
+	@echo "... review/light/basic_light/main.i"
+	@echo "... review/light/basic_light/main.s"
 .PHONY : help
 
 

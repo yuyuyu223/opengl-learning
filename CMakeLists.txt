@@ -28,7 +28,7 @@ IF(PLATFORM MATCHES "Linux")
     find_package(glfw3 REQUIRED)
     find_package(GLUT REQUIRED)
     find_package(X11 REQUIRED)
-    file(GLOB project_main_file ./review/Advanced_lighting/Deferred_Shading/main.cpp glad.c)
+    file(GLOB project_main_file ./review/light/basic_light/main.cpp glad.c)
     # set common source
     file(GLOB GUI_SRC
         ./include/ImGUI/*.h

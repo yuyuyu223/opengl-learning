@@ -8,7 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui_draw.cpp.o"
   "CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui_tables.cpp.o"
   "CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui_widgets.cpp.o"
-  "CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.o"
+  "CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.o"
   "OpenGl_homework"
   "OpenGl_homework.pdb"
 )

@@ -57,18 +57,18 @@ include CMakeFiles/OpenGl_homework.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpenGl_homework.dir/flags.make
 
-CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.o: CMakeFiles/OpenGl_homework.dir/flags.make
-CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.o: ../review/Advanced_lighting/Deferred_Shading/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yhc/文档/opengl-learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.o"
-	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.o -c /home/yhc/文档/opengl-learning/review/Advanced_lighting/Deferred_Shading/main.cpp
+CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.o: CMakeFiles/OpenGl_homework.dir/flags.make
+CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.o: ../review/light/basic_light/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yhc/文档/opengl-learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.o -c /home/yhc/文档/opengl-learning/review/light/basic_light/main.cpp
 
-CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.i"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yhc/文档/opengl-learning/review/Advanced_lighting/Deferred_Shading/main.cpp > CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.i
+CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yhc/文档/opengl-learning/review/light/basic_light/main.cpp > CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.i
 
-CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.s"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yhc/文档/opengl-learning/review/Advanced_lighting/Deferred_Shading/main.cpp -o CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.s
+CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yhc/文档/opengl-learning/review/light/basic_light/main.cpp -o CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.s
 
 CMakeFiles/OpenGl_homework.dir/glad.c.o: CMakeFiles/OpenGl_homework.dir/flags.make
 CMakeFiles/OpenGl_homework.dir/glad.c.o: ../glad.c
@@ -189,7 +189,7 @@ CMakeFiles/OpenGl_homework.dir/include/ImGUI/imgui_widgets.cpp.s: cmake_force
 
 # Object files for target OpenGl_homework
 OpenGl_homework_OBJECTS = \
-"CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.o" \
+"CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.o" \
 "CMakeFiles/OpenGl_homework.dir/glad.c.o" \
 "CMakeFiles/OpenGl_homework.dir/include/ImGUI/backends/imgui_impl_glfw.cpp.o" \
 "CMakeFiles/OpenGl_homework.dir/include/ImGUI/backends/imgui_impl_opengl3.cpp.o" \
@@ -203,7 +203,7 @@ OpenGl_homework_OBJECTS = \
 # External object files for target OpenGl_homework
 OpenGl_homework_EXTERNAL_OBJECTS =
 
-OpenGl_homework: CMakeFiles/OpenGl_homework.dir/review/Advanced_lighting/Deferred_Shading/main.cpp.o
+OpenGl_homework: CMakeFiles/OpenGl_homework.dir/review/light/basic_light/main.cpp.o
 OpenGl_homework: CMakeFiles/OpenGl_homework.dir/glad.c.o
 OpenGl_homework: CMakeFiles/OpenGl_homework.dir/include/ImGUI/backends/imgui_impl_glfw.cpp.o
 OpenGl_homework: CMakeFiles/OpenGl_homework.dir/include/ImGUI/backends/imgui_impl_opengl3.cpp.o
